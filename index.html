@@ -457,21 +457,13 @@ URI     : https://colorlib.com
                         <p class="tagline">Aprenda quais são as técnicas necessárias para você fazer excelentes
                         movimentos de cabeça sem ficar com o pescoço doendo </p>
 
-                        <div class="row">
-                            <div class="col"></div>
-                            <div class="col-6">
-                                <div class="input-group my-4">
-                                  <input type="text"
-                                         class="form-control"
-                                         placeholder="E-mail"
-                                         aria-label="E-mail"
-                                         aria-describedby="basic-addon2">
-                                  <div class="input-group-append">
-                                    <button class="btn btn-outline-light btn-lg" type="button">Enviar</button>
-                                  </div>
-                                </div>
+                        <div class="row justify-content-md-center">
+                            <div class="col-lg-6 my-4">
+                                <button type="button"
+                                        class="btn btn-outline-light btn-lg"
+                                        data-toggle="modal"
+                                        data-target="#exampleModal">Quero Participar</button>
                             </div>
-                            <div class="col"></div>
                         </div>
 
                     </div>
@@ -517,6 +509,35 @@ URI     : https://colorlib.com
         </div>
 
     </div>
+
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Quero participar do webinário!</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            </button>
+          </div>
+          <div class="modal-body">
+            <form>
+              <div class="form-group">
+                <label for="recipient-name" class="col-form-label">Nome:</label>
+                <input type="text" class="form-control" id="recipient-name">
+              </div>
+              <div class="form-group">
+                <label for="message-text" class="col-form-label">Email:</label>
+                <input type="email" class="form-control" id="message-text">
+              </div>
+            </form>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-primary" data-dismiss="modal">Enviar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
     <!-- // end .section -->
 <!--     <footer class="my-5 text-center">
 
