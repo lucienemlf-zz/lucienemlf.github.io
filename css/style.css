@@ -88,6 +88,29 @@ p.lead {
     margin-bottom: 2rem;
 }
 
+
+.modal-footer-custom {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+    padding: 15px;
+}
+
+.modal-header-custom {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: start;
+    align-items: flex-start;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    padding: 15px;
+    border-top-left-radius: .3rem;
+    border-top-right-radius: .3rem;
+}
+
 .info {
     color: #633991;
     font-size: 33px;
